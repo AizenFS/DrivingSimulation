@@ -1,0 +1,55 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.5,
+      "y": 5.5
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Drive Back"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Drive Forward"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Back Left 45"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Forward Left 45"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Back right 45"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Forward right 45"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

@@ -1,0 +1,97 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "window": {
+        "visible": false
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Auto Routine": "String Chooser",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser",
+      "/SmartDashboard/test": "Command"
+    },
+    "windows": {
+      "/SmartDashboard/Auto Routine": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field": {
+        "bottom": 1476,
+        "height": 8.210550308227539,
+        "left": 150,
+        "path": {
+          "arrowColor": [
+            255.0,
+            0.0,
+            0.0,
+            255.0
+          ],
+          "arrowSize": 19,
+          "arrows": false,
+          "color": [
+            0.9460784196853638,
+            0.9460784196853638,
+            0.9460784196853638,
+            255.0
+          ],
+          "style": "Track",
+          "weight": 1.0,
+          "width": 0.20000000298023224
+        },
+        "right": 2961,
+        "top": 79,
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/test": {
+        "window": {
+          "name": "PsthToLeftRing",
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "retained": {
+      "SmartDashboard": {
+        "SendableChooser[0]": {
+          "open": true
+        },
+        "open": true
+      }
+    },
+    "transitory": {
+      "Shuffleboard": {
+        "open": true
+      },
+      "SmartDashboard": {
+        "SendableChooser[0]": {
+          "open": true,
+          "string[]##v_/SmartDashboard/SendableChooser[0]/options": {
+            "open": true
+          }
+        },
+        "open": true,
+        "test": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "Server": {
+      "open": true
+    },
+    "visible": true
+  },
+  "NetworkTables View": {
+    "visible": false
+  }
+}
